@@ -1,0 +1,10 @@
+name: twf-skeleton
+version: "0.0.1"
+description: "Throwaway skeleton to verify plugin surfaces for the task workflow plugin."
+author: "Daren Broxmeyer"
+requires_hermes: ">=0.22.5"
+provides_tools:
+  - twf_probe
+provides_hooks:
+  - on_session_end
+  - pre_llm_call
